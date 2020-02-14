@@ -4,7 +4,7 @@
 
   <groupId>com.sivajavatechie.sonar</groupId>
   <artifactId>MavenSonar</artifactId>
-  <version>SNAPSHOT-1.0</version>
+  <version>SNAPSHOT-2.0</version>
   <packaging>jar</packaging>
 
   <name>MavenSonar</name>
@@ -16,7 +16,7 @@
 <distributionManagement>
    <repository>
       <id>nexus</id>
-      <url>http://34.73.4.235:8081/repository/maven-releases/</url>
+      <url>http://34.69.20.139:8081/repository/maven-releases/</url>
    </repository>
 </distributionManagement>
 <build>
@@ -65,7 +65,7 @@
             </activation>
             <properties>
                 <!-- Optional URL to server. Default value is http://localhost:9000 -->
-                <sonar.host.url>http://104.198.195.88:9000</sonar.host.url>
+                <sonar.host.url>http://34.66.38.61:9000</sonar.host.url>
  <!--  <sonar.jdbc.url>your database URL</sonar.jdbc.url>
 <sonar.jdbc.driver>Your database driver</sonar.jdbc.driver>
 <sonar.jdbc.username>DB username</sonar.jdbc.username>
